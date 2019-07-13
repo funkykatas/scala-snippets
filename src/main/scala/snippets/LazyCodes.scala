@@ -1,4 +1,4 @@
-package src.main.scala.snippets
+package main.scala.snippets
 
 object LazyCodes {
 

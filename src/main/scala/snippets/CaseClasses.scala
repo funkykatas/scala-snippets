@@ -1,10 +1,10 @@
-package src.main.scala.snippets
+package main.scala.snippets
 
 object CaseClasses {
 
   case class Person(name: String, surname: String)
   case class MutablePerson(var name: String, var surname: String)
-  case class NamedBox(val number: Int, name: String)
+  case class NamedBox(number: Int, name: String)
 
   def getGreet(person: Person): String = person match {
     case Person("Marry", "Saint") => s"Holy molly! Hello ${person.name} ${person.surname}!"
